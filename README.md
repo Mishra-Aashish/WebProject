@@ -27,7 +27,7 @@ A personal portfolio design with sections like **About, Skills, Projects, and Co
 A Netflix homepage UI clone built using **HTML & CSS**, focusing on layout and responsiveness.  
 
 📸 Preview:  
-<img src="./netflix/screenshot.png" alt="Netflix Clone Screenshot" width="600">
+[Netflix clone screenshot]<img src="./image/Screenshot 2025-08-17 153005.png" alt="Netflix Clone Screenshot" width="600">
 
 
 ---
