@@ -1,0 +1,89 @@
+/* Header Box (Black Border, 300px height, 100% width) */
+.header-box {
+    border: 1px solid black;
+    height: 100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 2px 0 0;
+    background-color: white; /* You can adjust the background color as needed */
+    margin-top: -7px;
+  }
+  
+  /* Menu Option (Left) */
+  .menu {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* YouTube Icon (Image) */
+  .youtube-icon img {
+    width: 30px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Add spacing */
+  }
+  
+  /* Search Bar */
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 500px; /* Adjust the width as needed */
+    height: 37px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .search-bar button {
+    background-color:white; /* Red color, you can change it */
+    color: rgb(19, 19, 19);
+    border: 1px solid black;
+    padding: 19px 30px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    cursor: pointer;
+    margin-left: -3.5px; /* Add spacing */
+    height: 46.3px;
+  }
+  
+  /* Mic Option */
+  .mic i {
+    border: #de4f4f;
+    height: 20px;
+    width: auto;
+    color: rgb(194, 24, 24);
+    font-size: 20px;
+    margin-left: 10px; /* Add spacing */
+  }
+  
+  /* Video Call Icon */
+  .video-call i {
+    color: black;
+    font-size: 20px;
+    margin-left: 10px; /* Add spacing */
+  }
+  
+  /* Notification Icon */
+  .notification i {
+    color: black;
+    font-size: 20px;
+    margin-left: 10px; /* Add spacing */
+  }
+  
+  /* Profile Picture (Inside a Circle) */
+  .profile-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .profile-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

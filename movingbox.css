@@ -1,0 +1,116 @@
+.container{
+    border: solid 0px;
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(rgb(44, 44, 210),rgba(255, 255, 255, 0.904),rgb(33, 222, 33));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: containers;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}   
+
+@keyframes containers{
+    0%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 0px;
+        left: 500px;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+    }
+    75%{
+        top: 500px;
+        left: 0px;
+    }
+    100%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+}
+.box{
+    border: solid 0px;
+    height: 100px;
+    width: 100px;
+    background-image: radial-gradient(white,yellow,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: box;
+    animation-duration: 10s;
+    animation-delay: 7s;
+}
+@keyframes box {
+    0%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 0px;
+        left: 500px;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+    }
+    75%{
+        top: 500px;
+        left: 0px;
+    }
+    100%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+}
+.crcl{
+    border: solid 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: radial-gradient(green,white,brown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: crcl;
+    animation-duration: 10s;
+    animation-delay: 18s;
+}
+@keyframes crcl {
+    0%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 0px;
+        left: 500px;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+    }
+    75%{
+        top: 500px;
+        left: 0px;
+    }
+    100%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+}

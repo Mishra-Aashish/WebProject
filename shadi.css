@@ -1,0 +1,619 @@
+/* Apply styles to the <body> element to set the background image */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the background image and buttons */
+.background-container {
+  position: relative;
+  max-width: 100%;
+  
+}
+
+/* Style for the background image */
+.background-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Container for the buttons */
+.button-container {
+  position: absolute;
+  top: 7px; /* Adjust the top distance as needed */
+  right: 65px; /* Adjust the right distance as needed */
+}
+
+/* Styles for Button 1 */
+.top-right-button.button-1 {
+  color: #fff;
+  padding: 10px 0;
+  height: 17px;
+  width: 80px; /* Set the width for Button 1 */
+  border: none;
+  border-radius: 10px;
+  margin-left: 5px; /* Add spacing between buttons */
+  font-size: 12px;
+  font-weight: 1000;
+  font-family: 'poppins','sans-serif', 'arial';
+  background-color: #6D5E63;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.4s;
+}
+
+/* Styles for Button 2 */
+.top-right-button.button-2 {
+  color: #fff;
+  padding: 10px 0;
+  height: 17px;
+  width: 110px; /* Set the width for Button 1 */
+  border: none;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 1000;
+  font-family: 'poppins','sans-serif', 'arial';
+  background-color: #368D87;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.4s;
+}
+
+/* Hover styles for Button 1 */
+.top-right-button.button-1:hover {
+  background-color: #f0eaea; /* Change background color on hover */
+  color: black;
+}
+
+/* Hover styles for Button 2 */
+.top-right-button.button-2:hover {
+  background-color: #44f3e7; /* Change background color on hover */
+  color: rgb(45, 2, 2);
+}
+
+/* Style for the box */
+.box {
+  width: 99.9%;
+  height: 50px;
+  border:solid 1px #368D87; /* Solid 2px black border */
+  margin: 0 auto; /* Center the box horizontally */
+  background-color: #368D87; /* Optional background color */
+}
+
+.second-box{
+  width: 190px;
+  height: 30px;
+  border: 2px solid rgb(241, 104, 104); /* Solid 2px red border */
+  margin: 7px auto 10px; /* Center the box horizontally */
+  border-radius: 9px; /* Border radius of 9px */
+  background-color: rgb(241, 104, 104); /* Optional background color */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white; /* Set text color to white */
+}
+
+
+/* Style for the container of the three boxes */
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly between boxes */
+  margin-top: 10px; /* Add margin on top for spacing */
+}
+
+/* Style for each flex box */
+.flex-box {
+  flex: 1; /* Allow boxes to grow equally to use available space */
+  border: 0 solid black; /* Solid 2px black border */
+  border-radius: 9px; /* Border radius of 9px */
+  background-color: white; /* Optional background color */
+  text-align: center; /* Center text horizontally within the box */
+  margin:  5px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  height: 240px;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the text below the images */
+.flex-box p {
+  margin: -10px 0; /* Add margin to separate text from image */
+}
+
+/* Style for the images inside the flex boxes */
+.flex-box img {
+  width: 350px; /* Adjust the width as needed */
+  height: 200px; /* Maintain aspect ratio */
+}
+
+/* Style for the "BROWSE MATRIMONIAL PROFILES" text */
+.browse-profiles-text {
+  text-align: center; /* Center text horizontally */
+  color:#D20200; /* Set text color to red */
+  font-size: 20px;
+  font-weight: 600;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 10 0px;
+}
+/* Style for the container of the additional boxes */
+.additional-boxes {
+  display: flex;
+  justify-content:space-evenly; /* Distribute space evenly between boxes */
+  align-items: center; 
+ 
+}
+
+/* Style for each additional box */
+.additional-box {
+  width: 360px;
+  height: 170px;
+  border-radius: 10px;
+  border:none;
+  background-color:rgba(237, 235, 235, 0.929);
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-between; /* Space buttons at the bottom */
+  align-items: center;
+  margin: 10px; /* Add margin for spacing */
+  margin-bottom: 10px;
+}
+.additional-box h3{
+  color: #666;
+  font-weight: bold !important;
+  margin-top: 10px;
+  font-size: 17px;
+  display: block;
+}
+.additional-box h3:hover{
+  color: #D20200;
+}
+.additional-box a{
+  text-decoration: none;
+  color: #6D5E63;
+  margin-top: -18px;
+}
+.additional-box a:hover{
+  color:#D20200 ;
+}
+
+/* Style for the buttons inside the additional boxes */
+.additional-button {
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 13px;
+  background-color:#76c7c0;
+  color: #444;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  box-shadow: 2px 2px 2px #62b9b0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+.additional-button:hover{
+   background-color:hsla(0, 87%, 3%, 0.888) ;
+   color: rgba(242, 242, 242, 0.897);
+}
+
+
+.background-image {
+  background-image: url('./image/couple-3581038_1280.webp'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  margin-top: 80px;
+  height: 850px; /* Adjust the height as needed */
+  display: flex;
+  justify-content: space-evenly; /* Distribute space evenly between boxes */
+  align-items: center; /* Align items vertically */
+  position: relative;
+  bottom: 20px;
+}
+
+.centered-text {
+  top: 40px;
+  position: absolute;
+  color: whitesmoke;
+  padding: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.custom-box {
+  justify-content: space-evenly;
+  background-color: black;
+  border:solid 5px #04a7e7;
+  text-align: center;
+  margin-top: 200px;
+  height: 500px;
+  width: 430px;
+  border-radius: 50px;
+  position: relative;
+  margin-right: 50px;
+  transition: transform 2.5s;
+}
+.custom-box a{
+  text-decoration: none;
+}
+
+.custom-box img {
+  background-color:whitesmoke;
+  max-width: 100%;
+  height: 70%;
+  border-radius: 45px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.custom-box:hover{
+  transform: scale(0.9);
+  border: #0f0101;
+  box-shadow: 10px 10px 10px black;
+  background-color: transparent;
+}
+
+.custom-box p {
+  margin-top: 5px;
+  color: white;
+}
+
+.custom-box button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  text-align: center;
+  justify-content: center;
+  font-family: serif;
+}
+.arrow-button {
+  background-image: url('./image/arrow\ right.png'); /* Replace with your arrow image path */
+  background-repeat: no-repeat;
+  background-position: right ; /* Adjust position as needed */
+  background-size: 15px auto; /* Adjust size as needed */
+  padding-right: -10px; /* Add padding to make space for the arrow */
+}
+.box-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: -680px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.boxtitlee{
+  border: none;
+  color: #f00b72e2;
+  font-weight: bolder;
+  font-size: 25px;
+  height: 40px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 250px;
+ 
+}
+.boxtitle{
+  border: none;
+  color: gold;
+  font-weight: bolder;
+  font-size: 25px;
+  height: 40px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 70px;
+}
+.border-bottom{
+  position: relative;
+  border: none;
+  height: 18px;
+  width:100%;
+  bottom:20px;
+  background-color: rgb(231, 228, 228);
+}
+
+.title-container {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: -680px;
+}
+
+.titlename {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  height: 50px;
+  width: 220px;
+  background: transparent;
+  color: #666;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.content-box{
+  position:relative;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: -690px;
+}
+.content{
+  border:none;
+  border-radius: 9px;
+  height: 200px;
+  width: 350px;
+  transition:transform(1.9s) ;
+}
+.content:hover{
+transform: scale(1.03);
+}
+.content a img{
+  border-radius: 10px;
+  width: 350px; /* Adjust the width as needed */
+  height: 200px; /* Maintain aspect ratio */
+}
+
+.content a{
+  text-decoration: none;
+}
+
+.h1 h1{
+ position: relative;
+ border: none;
+ height: 40px;
+ width: 320px;
+ font-size: 23px;
+ font-weight: bolder;
+ color: white;
+ top: -130px;
+ text-align: center;
+ 
+}
+
+.details-container{
+  position:relative;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: -690px;
+}
+.details{
+  position: relative;
+  border:none;
+  border-radius: 9px;
+  height: 230px;
+  width: 350px;
+  top: -5px;
+  text-align: centre;
+  font-family: "Raleway",sans-serif;
+  line-height: 1.5;
+  font-size: 13px;
+}
+.list-box{
+  position: relative;
+  border: none;
+  height: 200px;
+  width: 250px;
+  top: -25px;
+}
+.list{
+  padding: 13px;
+  margin-bottom: 10px;
+}
+.details button{
+  border: none;
+  background-color: transparent;
+  position: relative;
+  right: -280px;
+  color: #444;
+  font-size: 13px;
+  font-weight: 700;
+}
+ .bottom-button1{
+  top: -102px;
+}
+
+/*---------------------------------------------------------------------*/
+.footer{
+position:relative;
+border: none;
+height: 95px;
+width: 50%;
+bottom: -650px;
+right: -330px;
+align-items: center;
+justify-content: center;
+text-align:  center;
+color: #D20200;
+font-size: 15px;
+line-height: 1.2;
+font-family: sans-serif;
+}
+
+/*------------------------------------------------------------------------*/
+.footer2{
+  
+  display: flex;
+  position: relative;
+  bottom: -640px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: -150px;
+
+}
+.footerA{
+  border: none;
+  justify-content: space-evenly;
+  height:140px;
+  width: 220px;
+}
+/*--------------------------------------------------------------------------------*/
+.description{
+  display: flex;
+  position: relative;
+  bottom: -660px;
+  padding-bottom: 20px;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+.description1{
+  border: none;
+  text-align: center;
+  height:110px;
+  width: 510px;
+}
+/*-------------------------------------------------------------------------------------*/
+.footer3{
+position:relative;
+border: none;
+height: 45px;
+width: 50%;
+bottom: -650px;
+right: -330px;
+align-items: center;
+justify-content: center;
+text-align:  center;
+color: #D20200;
+font-size: 15px;
+line-height: 1.2;
+font-family: sans-serif;
+}
+/*--------------------------------------------------------------------------------------*/
+
+.footer4{
+position:relative;
+border: none;
+color: #000;
+border-radius: 13px;
+padding: 25px;
+height: 140px;
+width: 80%;
+bottom: -670px;
+right: -100px;
+background-color: #f8f8f8;
+font-size: 13px;
+line-height: 1.2;
+font-family: sans-serif;
+line-height: 1.5;
+box-shadow: 2px 2px 2px #e5e6e6;
+}
+/*-------------------------------------------------------------------------------------------*/
+.shadi-com{
+  
+  position: relative;
+  border: none;
+  bottom: -800px;
+  width: 100%;
+  height: 500px;
+}
+.shadi-com img{
+  width: 100%;
+  height: 500px;
+}
+           /*---------------------leaving some parts-----------------------------*/
+
+
+.Social{
+  position: relative;
+  border: solid 1px #820705;
+  bottom: -770px;
+  width: 99.9%;
+  height: 150px;
+  background-color: #a90704;
+}
+.Social-Media{
+  color: white;  
+  
+}
+.Social-Media h2{
+  margin-left: 48px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Social-Media ul li {
+  list-style: none;
+  display: inline;
+}
+.Social-Media ul li img{
+  transition: transform 1.0s ease;
+}
+.Social-Media ul li img:hover{
+  transform: rotate(360deg);
+}
+.last{
+    position:relative;
+    border: none;
+    height: 45px;
+    width: 45%;
+    padding: 5px;
+    bottom: -630px;
+    left: 650px;
+    color: white;
+    font-size: 14px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    text-align: right;
+}
+.last a{
+  text-decoration:none;
+  color: blue;
+}
+.logo-box{
+  position:relative;
+  border: none;
+  height: 45px;
+  width: 15%;
+  bottom: -630px;
+  left: 1040px;
+  color: white;
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: sans-serif;
+  text-align: right;
+}
+.logo-box img{
+  height: 45px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
